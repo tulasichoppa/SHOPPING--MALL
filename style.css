@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+@media(min-width:1023px) {
+
+    .one {
+        height: 38px;
+        width: 100%;
+        /* border: 2px solid rgb(248, 8, 8); */
+    }
+
+    .okati {
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        background-color: rgb(13, 12, 11);
+        
+    }
+
+    .second {
+        height: 40px;
+        width: 100%;
+        background-color: rgb(197, 161, 115);
+        
+        /* border: 2px solid red; */
+
+    }
+
+    .rendu li {
+        float: right;
+        color: black;
+        margin-right: 80px;
+        font-size: 15px;
+    }
+
+    .third {
+        height: 110px;
+        width: 100%;
+        /* border: 2px solid rgb(249, 77, 77); */
+    }
+
+    .mooduu img {
+        height: 100px;
+        float: left;
+
+    }
+
+    .moodu button {
+        background-color: rgb(246, 242, 242);
+        background-origin: 1px solid rgb(9, 9, 9);
+        /* border-radius: 150px; */
+        margin-left: 500px;
+        margin-top: 10px;
+        padding: 5px 40px;
+        padding-left: 40px;
+    }
+
+    .four {
+        height: 400px;
+        width: 100%;
+        /* border: 2px solid rgb(236, 11, 11); */
+    }
+
+
+
+    .five {
+        height: 55px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .idhuu {
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(8, 85, 25);
+    }
+
+    .six {
+        height: 440px;
+        width: 100%;
+        /* border: 2px solid rgb(240, 24, 24); */
+    }
+
+    .card {
+        height: 400px;
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 20px;
+        float: left;
+        background-color: rgb(229, 233, 170);
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgb(22, 13, 7);
+    }
+    .card:hover{
+        transform: scale(0.9);
+    }
+
+    .card img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .seven {
+        height: 380px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .pics {
+        height: 300px;
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 20px;
+        float: left;
+        background-color: rgb(183, 211, 224);
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgb(22, 13, 7);
+    }
+    .pics:hover{
+        transform: scale(1.2);
+    }
+
+    .pics img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .picse h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(89, 23, 152);
+    }
+
+    .eight {
+        height: 450px;
+        width: 100%;
+        /* border: 2px solid rgb(222, 25, 25); */
+
+    }
+
+    .call {
+        height: 350px;
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 20px;
+        float: left;
+        background-color: rgb(249, 189, 155);
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgb(22, 13, 7);
+    }
+    .call:hover{
+        transform: scale(0.9);
+    }
+
+    .call img {
+        height: 240px;
+        width: 100%;
+    }
+
+    .dpt h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(94, 47, 10);
+    }
+
+    .nine {
+        height: 400px;
+        width: 100%;
+        /* border: 2px solid rgb(222, 25, 25); */
+
+    }
+
+    .ysrcp {
+        height: 350px;
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 20px;
+        float: left;
+        background-color: rgb(232, 162, 214);
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgb(22, 13, 7);
+    }
+    .ysrcp:hover{
+        transform: scale(1.1);
+
+
+}
+
+    .ysrcp img {
+        height: 240px;
+        width: 100%;
+    }
+
+    .tyu {
+        height: 400px;
+        width: 100%;
+        /* border: 2px solid rgb(222, 25, 25); */
+
+    }
+
+    .optr {
+        height: 350px;
+        width: 20%;
+        margin-left: 45px;
+        margin-top: 20px;
+        float: left;
+        background-color: rgb(170, 229, 249);
+        text-align: center;
+        box-shadow: 3px 3px 3px 3px rgb(22, 13, 7);
+    }
+    .optr:hover{
+        transform: scale(0.9);
+    }
+
+    .optr img {
+        height: 270px;
+        width: 100%;
+    }
+
+    .kkd {
+        height: 540px;
+        width: 100%;
+        /* border: 2px solid rgb(240, 17, 17); */
+    }
+
+    .kota  {
+        float: left;
+        margin-left: 20px;
+/* position: absolute; */
+
+
+    }
+    .kota img{
+position: absolute;
+margin-right: 250px;
+    }
+
+    .kota h1 {
+        position: relative;
+        z-index: 1;
+        padding-top: 15px;
+        color: rgb(14, 13, 17);
+        font-size:25px;
+        /* margin-left: 50px; */
+        font-style: italic;
+        margin-left: 285px;
+        
+    }
+
+    .pot img {
+        height: 500px;
+        width: 60%;
+        margin-top: 0px;
+        position: absolute;
+        float: left;
+        margin-left: 50%;
+        margin-bottom:160px; 
+
+
+    }
+
+    .pot h1 {
+        position: relative;
+        z-index: 1;
+        padding-top: 30px;
+        color: rgb(4, 3, 10);
+        font-size: 40px;
+        margin-left: 1015px;
+        font-style: italic;
+    } 
+ .ten{
+    height: 370px;
+    width: 100%;
+    /* border: 2px solid rgb(36, 98, 36); */
+
+} 
+ .paadhi img{
+height: 350px;
+width: 50%;
+border: 2px solid rgb(12, 10, 10);
+float: left;
+margin-right: 150px;
+margin-top: 10px;
+
+
+}
+.paadhi img:hover{
+    transform: scale(0.9);
+}
+.paadhi h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    color: rgb(95, 4, 4);
+    
+        
+}
+.paadhi{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    color: rgb(64, 65, 63);
+}
+.paadhi button{
+    background-color: rgb(15, 97, 41);
+    color: rgb(244, 239, 239);
+    margin-top: 50px;
+    padding:10px 30px 10px 30px;
+    border-radius: 50px;
+    
+    
+} 
+.paadhi button:hover{
+    transform: scale(1.3);
+}
+.htmll{
+    height: 930px;
+    width: 100%;
+    /* border: 2px solid rgb(225, 20, 20); */
+    background-color: rgb(57, 56, 56);
+}
+.csss h1{
+font-size: 60px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(11, 96, 31);
+margin-left: 20px;
+margin-top: 20px;
+}
+.csss h2{
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(173, 13, 13);
+margin-left: 35px;
+margin-top: 30px;
+}
+.csss p{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+.csss button{
+    height: 20px;
+    background-color: rgb(253, 248, 248);
+    color: rgb(9, 9, 9);
+    margin-left: 95px;
+    margin-top:50px;
+    padding: 10px 250px 20px 25px;
+}
+.csss img{
+    height: 160px;
+    float: left;
+}
+
+.csss h3{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    color: rgb(246, 6, 194);
+    margin-left: 10px;
+}
+.csss h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: rgb(227, 133, 18);
+    margin-left: 30px;
+}
+.csss h5{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:15px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+}
+.csss h6{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+}
+.karthik{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid rgb(229, 33, 33); */
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.hero{
+    float: left;
+    /* border: 2px solid green; */
+    margin-left: 40px;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+
+}
+.hero h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+    margin-top: 20px;
+    float:left;
+    
+}
+.hero li{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.hero i{
+    color: rgb(222, 15, 15);
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
